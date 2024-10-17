@@ -15,7 +15,7 @@ rows = cursor.fetchall()
 columns = [description[0] for description in cursor.description]
 
 # Create a new Excel workbook and select the active worksheet
-xlsx_path = 'fina_membersdata.xlsx'
+xlsx_path = 'final_membersdata.xlsx'
 wb = Workbook()
 ws = wb.active
 ws.title = "api_member_data"
